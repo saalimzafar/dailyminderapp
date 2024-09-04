@@ -17,7 +17,7 @@ const withPWA = require('next-pwa')({
 });
 
 module.exports = withPWA({
-  basePath: 'dailyminderapp',
+  basePath: '/dailyminderapp',
   assetPrefix: 'https://saalimzafar.github.io/dailyminderapp/',
   
 });
